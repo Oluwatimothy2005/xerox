@@ -1,0 +1,30 @@
+*{
+    background-color: bisque;
+}
+.clearfix::after{
+    content: "";
+    clear:both;
+    display: table;
+}
+
+.form{
+    color: black;
+    text-align: left;
+    border: 15px solid black;
+    padding: 50px;
+    margin: 15rem;
+}
+
+.join-button:link, .join-button:visited {
+    background-color: #0f0c0c;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+.join-button:hover, .join-button:active {
+    background-color: rgb(28, 21, 21);
+    color: aliceblue;
+}

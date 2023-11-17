@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>xerox</title>
+</head>
+<body>
+    <div class="clearfix">
+        <h2 style="text-align: center;">Welcome to the customer creation wizard</h2>
+        <div class="form">
+            <form action="" method="post">
+                <h3>Customer Type</h3>
+                <select class="filter-select" name="" id="">
+                    <option>Individual</option>
+                    <option>staff</option>
+                    <option>co-operative</option>
+                </select>
+                <br><br>
+                <h3>Account Type</h3>
+                <select class="filter-select" name="" id="">
+                    <option>Deposit Accounts</option>
+                    <option>savings</option>
+                    <option>current</option>
+                    <option>co-operate</option>
+                </select>
+                <br><br>
+                <h3>Product Offering</h3>
+                <select class="filter-select" name="" id="" >
+                    <option>Daily savings</option>
+                    <option>saving</option>
+                    <option>express</option>
+                    <option>current</option>
+                </select>
+                <br>
+                <br>
+                <button class="join-button" type="button"  onclick="callAlert(location.href='register.html')">Register</button>
+                <script src="xerox.js"></script>
+                <script>
+                    function callAlert(msg) {
+                        alert(msg, 3000)
+                    }
+                </script>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
